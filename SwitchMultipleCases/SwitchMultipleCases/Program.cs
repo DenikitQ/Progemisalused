@@ -1,0 +1,31 @@
+﻿namespace SwitchMultipleCases
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Multiple cases");
+
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "Intro to C#" or "Variable" or "Data Types":
+                    Console.WriteLine("basic");
+                    break;
+
+                case "OOP" or "Classes" or "Objects":
+                    Console.WriteLine("Intermediate");
+                    break;
+
+                case "Asunchronous" or "LINQ" or "Delegates":
+                    Console.WriteLine("Advanced");
+                    break;
+
+                default:
+                    Console.WriteLine("Unknown course");
+                    break;
+            }
+        }
+    }
+}
