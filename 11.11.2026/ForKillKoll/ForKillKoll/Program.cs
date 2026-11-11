@@ -35,10 +35,4 @@ namespace ForKillKoll
                 }
             }
         }
-    }
-                
-               
-            
-        
-    
-
+    }    
