@@ -17,8 +17,9 @@ namespace ForKillKoll
             //kill - koll
             //kill - koll
             //killadi - koll
-            //kill - koll
+          
             //for loopi sees peab olema for loop
+            //peab saama sisestada arvu, mitu korda soovib väljundit korrata
 
             for (int i = 0; i < 3; i++)
             {
