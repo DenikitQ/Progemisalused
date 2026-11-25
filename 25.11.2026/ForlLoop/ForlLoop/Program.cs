@@ -52,6 +52,8 @@ namespace ForlLoop
 
                 Console.WriteLine("*");
             }
+
+            Console.ResetColor();
         }
     }
 }
